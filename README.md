@@ -15,7 +15,7 @@ Trained models can be downloaded from here:
 | english-50256-capcode   | 50256      | UTF-8 | [download](https://huggingface.co/alasdairforsythe/tokenmonster/resolve/main/english-50256-capcode.vocab)
 | english-40000-capcode   | 40000      | UTF-8 | in-progress
 | english-32000-capcode   | 32000      | UTF-8 | [download](https://huggingface.co/alasdairforsythe/tokenmonster/resolve/main/english-32000-capcode.vocab)
-| english-24000-capcode   | 24000      | UTF-8 | in-progress
+| english-24000-capcode   | 24000      | UTF-8 | [download](https://huggingface.co/alasdairforsythe/tokenmonster/resolve/main/english-24000-capcode.vocab)
 | code-100256-capcode     | 100256     | UTF-8 | [download](https://huggingface.co/alasdairforsythe/tokenmonster/resolve/main/code-100256-capcode.vocab)
 | code-65536-capcode      | 65536      | UTF-8 | in-progress
 | code-50256-capcode      | 50256      | UTF-8 | in-progress
