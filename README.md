@@ -28,9 +28,9 @@ Trained models can be downloaded from here:
 |-----------------|------------|--------|-------------
 | english-100256  | 100256     | UTF-8 | [download](https://huggingface.co/alasdairforsythe/tokenmonster/resolve/main/english-100256.vocab)
 | english-65536   | 65536      | UTF-8 | in-progress
-| english-50256   | 50256      | UTF-8 | in-progress
+| english-50256   | 50256      | UTF-8 | [download](https://huggingface.co/alasdairforsythe/tokenmonster/resolve/main/english-50256.vocab)
 | english-40000   | 40000      | UTF-8 | in-progress
-| english-32000   | 32000      | UTF-8 | in-progress
+| english-32000   | 32000      | UTF-8 | [download](https://huggingface.co/alasdairforsythe/tokenmonster/resolve/main/english-32000.vocab)
 | english-24000   | 24000      | UTF-8 | in-progress
 | code-100256     | 100256     | UTF-8 | [download](https://huggingface.co/alasdairforsythe/tokenmonster/resolve/main/code-100256.vocab)
 | code-65536      | 65536      | UTF-8 | in-progress
