@@ -5,38 +5,23 @@ license: mit
 
 The documentation and code is available on Github [alasdairforsythe/tokenmonster](https://github.com/alasdairforsythe/tokenmonster).
 
-Trained models can be downloaded from here:
+The prebuilt vocabularies are all available for download [here](https://huggingface.co/alasdairforsythe/tokenmonster/tree/main/vocabs).
 
-#### With capcode
-| Name                    | Vocab Size | Charset | Availablity
-|-------------------------|------------|-------|--------------
-| english-100256-capcode  | 100256     | UTF-8 | [download](https://huggingface.co/alasdairforsythe/tokenmonster/resolve/main/english-100256-capcode.vocab)
-| english-65536-capcode   | 65536      | UTF-8 | [download](https://huggingface.co/alasdairforsythe/tokenmonster/resolve/main/english-65536-capcode.vocab)
-| english-50256-capcode   | 50256      | UTF-8 | [download](https://huggingface.co/alasdairforsythe/tokenmonster/resolve/main/english-50256-capcode.vocab)
-| english-40000-capcode   | 40000      | UTF-8 | in-progress
-| english-32000-capcode   | 32000      | UTF-8 | [download](https://huggingface.co/alasdairforsythe/tokenmonster/resolve/main/english-32000-capcode.vocab)
-| english-24000-capcode   | 24000      | UTF-8 | [download](https://huggingface.co/alasdairforsythe/tokenmonster/resolve/main/english-24000-capcode.vocab)
-| code-100256-capcode     | 100256     | UTF-8 | [download](https://huggingface.co/alasdairforsythe/tokenmonster/resolve/main/code-100256-capcode.vocab)
-| code-65536-capcode      | 65536      | UTF-8 | in-progress
-| code-50256-capcode      | 50256      | UTF-8 | in-progress
-| code-40000-capcode      | 40000      | UTF-8 | in-progress
-| code-32000-capcode      | 32000      | UTF-8 | [download](https://huggingface.co/alasdairforsythe/tokenmonster/resolve/main/code-32000-capcode.vocab)
-| code-24000-capcode      | 24000      | UTF-8 | in-progress
+**July 3:** TokenMonster v1.0 has been released. The "420" prebuilt vocabularies are being released as they are completed, at a rate of around 10 per day. Let me know if there's one you want and I can prioritize it.
 
-#### Without capcode
-| Name            | Vocab Size | Charset | Availablity
-|-----------------|------------|--------|-------------
-| english-100256  | 100256     | UTF-8 | [download](https://huggingface.co/alasdairforsythe/tokenmonster/resolve/main/english-100256.vocab)
-| english-65536   | 65536      | UTF-8 | in-progress
-| english-50256   | 50256      | UTF-8 | [download](https://huggingface.co/alasdairforsythe/tokenmonster/resolve/main/english-50256.vocab)
-| english-40000   | 40000      | UTF-8 | in-progress
-| english-32000   | 32000      | UTF-8 | [download](https://huggingface.co/alasdairforsythe/tokenmonster/resolve/main/english-32000.vocab)
-| english-24000   | 24000      | UTF-8 | in-progress
-| code-100256     | 100256     | UTF-8 | [download](https://huggingface.co/alasdairforsythe/tokenmonster/resolve/main/code-100256.vocab)
-| code-65536      | 65536      | UTF-8 | in-progress
-| code-50256      | 50256      | UTF-8 | [download](https://huggingface.co/alasdairforsythe/tokenmonster/resolve/main/code-50256.vocab)
-| code-40000      | 40000      | UTF-8 | in-progress
-| code-32000      | 32000      | UTF-8 | [download](https://huggingface.co/alasdairforsythe/tokenmonster/resolve/main/code-32000.vocab)
-| code-24000      | 24000      | UTF-8 | in-progress
+Choose a dataset from:
+`code` `english` `englishcode` `fiction`
 
-in-progress vocabularies will be released 1 per day.
+Choose a vocab size from:
+`1024` `2048` `4096` `8000` `16000` `24000` `32000` `40000` `50256` `65536` `100256`
+
+Choose an optimization mode from:
+`unfiltered` `clean` `balanced` `consistent` `strict`
+
+For a capcode disabled vocabulary add:
+`nocapcode`
+
+And finally add the version number:
+`v1`
+
+Examples: `fiction-24000-consistent-v1` `code-4096-clean-nocapcode-v1`
