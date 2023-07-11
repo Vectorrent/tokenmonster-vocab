@@ -60,3 +60,4 @@ binaries/windows_x86_64/exportvocab.exe filter=lfs diff=lfs merge=lfs -text
 binaries/windows_x86_64/getalltokens.exe filter=lfs diff=lfs merge=lfs -text
 binaries/windows_x86_64/tokenmonsterserver.exe filter=lfs diff=lfs merge=lfs -text
 binaries/windows_x86_64/trainvocab.exe filter=lfs diff=lfs merge=lfs -text
+vocabs/gpt2.vocab filter=lfs diff=lfs merge=lfs -text
