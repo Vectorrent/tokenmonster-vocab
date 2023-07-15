@@ -91,3 +91,6 @@ vocabs/fiction-50256-consistent-v1.vocab filter=lfs diff=lfs merge=lfs -text
 vocabs/code-100256-consistent-v1.vocab filter=lfs diff=lfs merge=lfs -text
 vocabs/englishcode-65536-balanced-v1.vocab filter=lfs diff=lfs merge=lfs -text
 vocabs/fiction-40000-unfiltered-v1.vocab filter=lfs diff=lfs merge=lfs -text
+vocabs/code-40000-strict-v1.vocab filter=lfs diff=lfs merge=lfs -text
+vocabs/code-65536-consistent-v1.vocab filter=lfs diff=lfs merge=lfs -text
+vocabs/fiction-40000-clean-v1.vocab filter=lfs diff=lfs merge=lfs -text
